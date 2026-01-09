@@ -48,7 +48,7 @@ function displayProducts(products: Product[]): void {
   });
 }
 
-displayProducts(listProducts);
+displayProducts(listProducts); 
 
 
 function totalPrice(products: Product[]): number {

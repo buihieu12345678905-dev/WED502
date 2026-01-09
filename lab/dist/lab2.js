@@ -35,4 +35,4 @@ function filterSaleAndGoodRate(products) {
         (product.rate === Rate.medium || product.rate === Rate.high));
 }
 const filteredProducts = filterSaleAndGoodRate(listProducts);
-console.log("Sản phẩm Sale & đánh giá từ Trung bình trở lên:", filteredProducts);
+console.log("Sản phẩm Sale & đánh giá từ Trung bình trở lên:", filteredProducts); 
